@@ -2,8 +2,6 @@
 
 Este projeto coleta automaticamente **comentários**, **transcrições**, **livechats** e **superchats** de vídeos de um canal do YouTube, utilizando a biblioteca [`youtool`](https://github.com/PythonicCafe/youtool), e armazena os dados em um banco de dados **MongoDB**.
 
----
-
 ## ✅ Objetivo
 
 Trabalho prático da disciplina de **NoSQL**, com foco em:
@@ -13,14 +11,11 @@ Trabalho prático da disciplina de **NoSQL**, com foco em:
 - Manipulação de dados não estruturados (comentários, chats, etc.)
 - Boas práticas com variáveis de ambiente (`dotenv`)
 
----
 
 ## 🔍 Canal analisado
 
 [**Flow Podcast**](https://www.youtube.com/@FlowPodcast)\
 A coleta é aplicada sobre os **10 vídeos mais recentes** do canal.
-
----
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -32,7 +27,6 @@ A coleta é aplicada sobre os **10 vídeos mais recentes** do canal.
 - dotenv (`python-dotenv`)
 - yt-dlp (para transcrições)
 
----
 
 ## 📦 Instalação
 
@@ -57,7 +51,6 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
----
 
 ## 🔐 Configuração com `.env`
 
@@ -68,7 +61,6 @@ API_KEY=sua_chave_youtube_aqui
 MONGO_URI=mongodb://localhost:27017/
 ```
 
----
 
 ## 🚀 Execução
 
@@ -86,7 +78,6 @@ Durante a execução, os seguintes dados são coletados e armazenados no MongoDB
 - `livechat`: chat ao vivo de uma live conhecida
 - `canais`: dados do canal principal
 
----
 
 ## 📂 Estrutura esperada no MongoDB
 
@@ -102,7 +93,6 @@ Banco: `youtube_data`
 | `livechat`        | Chat ao vivo e superchats         |
 | `canais`          | Informações detalhadas do canal   |
 
----
 
 ## 🎥 Demonstração
 
@@ -110,7 +100,6 @@ Banco: `youtube_data`
 
 ![GIF](./youtool-gif.gif)
 
----
 
 ## 👨‍💼 Autores
 
@@ -118,7 +107,6 @@ Banco: `youtube_data`
 - Pedro Kajiya
 - Bruno Silvério
 
----
 
 ## 📚 Fontes de apoio
 
