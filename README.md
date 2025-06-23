@@ -60,7 +60,8 @@ Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 API_KEY=sua_chave_youtube_aqui
 MONGO_URI=mongodb://localhost:27017/
 ```
-
+> [!TIP]
+> Veja [este tutorial sobre como obter uma chave de api do youtube](https://www.ionos.com/pt-br/digitalguide/sites-de-internet/desenvolvimento-web/youtube-api-key/)
 
 ## 🚀 Execução
 
